@@ -3,6 +3,11 @@
     src: url("../font/BubblerOne-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Chilanka";
+    src: url("../font/Chilanka-Regular.ttf");
+}
+
 .logotipo {
     width: 55px; 
 }
@@ -34,6 +39,10 @@ header {
 
 .subtitulo-fuente {
     font-family: "Bubbler One", Arial, sans-serif;
+}
+
+.titulo-fotografia {
+    font-family: "Chilanka", Arial, sans-serif;
 }
 
 .texto-cian {
