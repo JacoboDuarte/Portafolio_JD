@@ -1,0 +1,224 @@
+@font-face {
+    font-family: "Bubbler One";
+    src: url("../font/BubblerOne-Regular.ttf");
+}
+
+.logotipo {
+    width: 55px; 
+}
+
+body {
+    background-color: #080a12; 
+    color: #f1f1f7; 
+    font-family: Arial, sans-serif; 
+    padding-top: 70px; 
+}
+
+header {
+    background-color: #101020;
+    border-bottom: 1px solid #292044; 
+}
+
+.nav-link {
+    color: #f1f1f7; 
+}
+
+.nav-link:hover {
+    color: #00d9ff; 
+}
+
+
+#inicio {
+    min-height: 400px; 
+}
+
+.subtitulo-fuente {
+    font-family: "Bubbler One", Arial, sans-serif;
+}
+
+.texto-cian {
+    color: #00d9ff; 
+}
+
+.texto-morado {
+    color: #8b5cf6; 
+}
+
+.imagen-perfil {
+    max-height: 360px; 
+    border: 2px solid #8b5cf6; 
+    border-radius: 15px; 
+}
+
+.seccion-alterna {
+    background-color: #11111f; 
+}
+
+.titulo-seccion {
+    color: #00d9ff; 
+    font-weight: bold; 
+    margin-bottom: 30px; 
+}
+
+.titulo-navegacion {
+    scroll-margin-top: 90px;
+}
+
+.texto-seccion {
+    max-width: 800px; 
+    margin: 0 auto; 
+    line-height: 1.8; 
+}
+
+.texto-contacto {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #c5c4d0;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+.tarjeta-portafolio {
+    background-color: #191929;
+    color: #f1f1f7; 
+    border: 1px solid #34265a;
+}
+
+.icono-habilidad {
+    width: 80px;
+    height: 80px;
+    margin: 8px auto 24px;
+    text-align: center;
+    line-height: 80px;
+    border: 1px solid #07556a;
+    border-radius: 20px;
+    background-color: #10232d;
+    color: #00d9ff;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#habilidades .tarjeta-portafolio {
+    border-radius: 20px;
+}
+
+#habilidades .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#habilidades .card-text {
+    color: #b9b8c9;
+}
+
+.imagen-tarjeta {
+    width: 100%; 
+    height: 190px;
+    object-fit: cover; 
+}
+
+.boton-morado {
+    background-color: #8b5cf6; 
+    color: #ffffff; 
+    border: 1px solid #8b5cf6; 
+}
+
+.boton-morado:hover {
+    background-color: #7042d8; 
+    color: #ffffff; 
+}
+
+.boton-cian {
+    background-color: #00bcd4; 
+    color: #080a12; 
+    border: 1px solid #00d9ff; 
+}
+
+.boton-cian:hover {
+    background-color: #00d9ff; 
+    color: #080a12; 
+}
+
+.imagen-galeria {
+    width: 100%;
+    height: 460px;
+    object-fit: cover;
+}
+
+.texto-intereses {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #c5c4d0;
+    line-height: 1.7;
+}
+
+.texto-galeria {
+    color: #c5c4d0;
+}
+
+.tarjeta-galeria {
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.tarjeta-galeria .carousel-caption {
+    background-color: rgba(8, 10, 18, 0.75);
+    border-radius: 10px;
+}
+
+.tarjeta-recurso {
+    border-radius: 16px;
+}
+
+.modal-portafolio {
+    background-color: #191929;
+    color: #f1f1f7; 
+}
+
+.texto-negrita {
+    font-weight: bold;
+}
+
+#mapa {
+    height: 350px; 
+    border: 0; 
+    border-radius: 10px;
+}
+
+.tarjeta-contacto {
+    border-radius: 16px;
+}
+
+footer {
+    background-color: #101020; 
+    border-top: 1px solid #292044; 
+}
+
+footer a {
+    color: #00d9ff; 
+}
+
+.icono-red {
+    display: inline-block;
+    margin: 0 12px;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.icono-red:hover {
+    color: #8b5cf6;
+}
+
+@media (max-width: 767px) {
+    .imagen-galeria {
+        height: 360px;
+    }
+}
+
+@media (max-width: 576px) {
+    .imagen-perfil {
+        max-height: 280px; 
+    }
+}

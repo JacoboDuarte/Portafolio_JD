@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="copyright" content="© 2026 Jacobo Joseba Duarte Jiménez"> 
+    <meta name="description" content="Portafolio personal de Jacobo Duarte, estudiante de desarrollo de software."> 
+    <meta name="keywords" content="Jacobo Duarte, portafolio, desarrollo de software, HTML, CSS, Bootstrap"> 
+
+    <title>Portafolio Jacobo Duarte</title> 
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/brands.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="iconos/favicon.ico" type="image/x-icon"> 
+    
+</head>
+<body>
+
+    <header class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <nav class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="multimedia/imagenes/logo-32x32.png" alt="Logo JD" class="d-inline-block align-text-middle logotipo"> 
+                Jacobo Duarte
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span> 
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#tituloPerfil">Perfil</a>
+                    <a class="nav-link" href="#tituloHabilidades">Habilidades</a>
+                    <a class="nav-link" href="#tituloProyectos">Proyectos</a> 
+                    <a class="nav-link" href="#tituloIntereses">Intereses</a> 
+                    <a class="nav-link" href="contacto.html#tituloContacto">Contacto</a> 
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="inicio" class="container py-5 my-5">
+        <div class="row align-items-center">
+            <article class="col-lg-7 text-center text-lg-start">
+                <p class="texto-cian">HOLA, SOY</p> 
+                <h1 class="display-4 fw-bold">Jacobo <span class="texto-morado">Duarte</span></h1>
+                <h2 class="h4 mb-3">Estudiante de Desarrollo de Software</h2> 
+                <p>Me interesa crear soluciones digitales, diseñar interfaces y desarrollar aplicaciones útiles. Este espacio reúne mis habilidades, proyectos y áreas de interés.</p>
+                <a href="#proyectos" class="btn boton-morado mt-3">Ver proyectos</a> 
+                <a href="contacto.html" class="btn boton-morado mt-3">Contactarme</a> 
+            </article>
+            <figure class="col-lg-5 text-center mt-4 mt-lg-0">
+                <img src="multimedia/imagenes/fotoPersonal.jpeg" alt="Foto del desarrollador" class="img-fluid imagen-perfil"> 
+            </figure>
+        </div>
+    </section>
+
+    <section id="perfil" class="seccion-alterna py-5">
+        <article class="container text-center">
+            <h2 id="tituloPerfil" class="titulo-seccion titulo-navegacion">Sobre mí</h2> 
+            <p class="texto-seccion">Soy estudiante de T.S.U. en Desarrollo de Software Multiplataforma. Me interesa aprender nuevas tecnologías, resolver problemas y construir proyectos que combinen funcionalidad con una buena experiencia de usuario.</p>
+        </article>
+    </section>
+
+    <section id="habilidades" class="container py-4">
+        <h2 id="tituloHabilidades" class="titulo-seccion titulo-navegacion text-center">Habilidades</h2> 
+        <div class="row justify-content-center">
+            <article class="col-md-4 col-lg-2 mb-4">
+                <div class="card tarjeta-portafolio h-100">
+                    <div class="card-body text-center">
+                        <div class="icono-habilidad">H5</div>
+                        <h3 class="card-title h5">HTML5</h3>
+                        <p class="card-text">Estructura semántica</p>
+                    </div>
+                </div>
+            </article>
+            <article class="col-md-4 col-lg-2 mb-4">
+                <div class="card tarjeta-portafolio h-100">
+                    <div class="card-body text-center">
+                        <div class="icono-habilidad">#</div>
+                        <h3 class="card-title h5">CSS3</h3>
+                        <p class="card-text">Estilos y diseño adaptable</p>
+                    </div>
+                </div>
+            </article>
+            <article class="col-md-4 col-lg-2 mb-4">
+                <div class="card tarjeta-portafolio h-100">
+                    <div class="card-body text-center">
+                        <div class="icono-habilidad">J</div>
+                        <h3 class="card-title h5">Java</h3>
+                        <p class="card-text">Lógica y programación</p>
+                    </div>
+                </div>
+            </article>
+            <article class="col-md-4 col-lg-2 mb-4">
+                <div class="card tarjeta-portafolio h-100">
+                    <div class="card-body text-center">
+                        <div class="icono-habilidad">DB</div>
+                        <h3 class="card-title h5">SQL</h3>
+                        <p class="card-text">Fundamentos de bases de datos</p>
+                    </div>
+                </div>
+            </article>
+            <article class="col-md-4 col-lg-2 mb-4">
+                <div class="card tarjeta-portafolio h-100">
+                    <div class="card-body text-center">
+                        <div class="icono-habilidad">C</div>
+                        <h3 class="card-title h5">C</h3>
+                        <p class="card-text">Fundamentos de programación</p>
+                    </div>
+                </div>
+            </article>
+            <article class="col-md-4 col-lg-2 mb-4">
+                <div class="card tarjeta-portafolio h-100">
+                    <div class="card-body text-center">
+                        <div class="icono-habilidad">K</div>
+                        <h3 class="card-title h5">Kotlin</h3>
+                        <p class="card-text">Desarrollo de aplicaciones móviles</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="proyectos" class="seccion-alterna py-5">
+        <div class="container">
+        <h2 id="tituloProyectos" class="titulo-seccion titulo-navegacion text-center">Mis proyectos</h2>
+            <div class="row">
+                <article class="col-md-6 col-lg-4 mb-4">
+                    <div class="card tarjeta-portafolio h-100">
+                        <img src="multimedia/imagenes/paginaWeb.png" class="card-img-top imagen-tarjeta" alt="Proyecto de aplicación web">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Sitio web personal</h3> 
+                            <p class="card-text">Práctica de HTML5, CSS y Bootstrap para desarrollar una página personal adaptable.</p>
+                            <button class="btn boton-cian" data-bs-toggle="modal" data-bs-target="#modalWeb">Ver detalles</button> 
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-6 col-lg-4 mb-4">
+                    <div class="card tarjeta-portafolio h-100">
+                        <img src="multimedia/imagenes/galeriaMovil.png" class="card-img-top imagen-tarjeta" alt="Captura de la aplicación Galería de imágenes para Android">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Galería de imágenes Android</h3>
+                            <p class="card-text">Aplicación en Kotlin para recorrer fotografías y ver una descripción de cada una.</p>
+                            <button class="btn boton-cian" data-bs-toggle="modal" data-bs-target="#modalDatos">Ver detalles</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-6 col-lg-4 mb-4">
+                    <div class="card tarjeta-portafolio h-100">
+                        <img src="multimedia/imagenes/Health_ID.png" class="card-img-top imagen-tarjeta" alt="Proyecto académico"> 
+                        <div class="card-body">
+                            <h3 class="card-title h5">Proyecto académico Health_ID</h3> 
+                            <p class="card-text">Propuesta de diseño de interfaz para la gestión eficiente y accesible de expedientes e identificación médica.</p>
+                            <button class="btn boton-cian" data-bs-toggle="modal" data-bs-target="#modalAcademico">Ver detalles</button> 
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="intereses" class="container py-5">
+        <h2 id="tituloIntereses" class="titulo-seccion titulo-navegacion text-center">Intereses y recursos multimedia</h2>
+        <p class="texto-intereses text-center mb-5">Este espacio reúne algunos de mis intereses y recursos que disfruto. Más adelante agregaré fotografías tomadas por mí, música y videos que forman parte de lo que me inspira.</p>
+
+        <div class="mb-5">
+            <h3 class="h4 texto-cian text-center mb-2 subtitulo-fuente">Galería personal</h3>
+            <p class="texto-galeria text-center mb-4">Una colección de momentos, lugares y detalles especiales.</p>
+            <div id="carruselIntereses" class="carousel slide tarjeta-portafolio tarjeta-galeria col-12 col-lg-10 mx-auto">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center g-0">
+                            <div class="col-md-4 text-center">
+                                <img src="multimedia/imagenes/neblina.jpeg" class="imagen-galeria" alt="Cabañas del Pico de Orizaba con neblina baja">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body p-4 p-lg-5">
+                                    <h4 class="texto-cian">Cabañas Pico de Orizaba</h4>
+                                    <p>Una vista de las cabañas entre la neblina y el paisaje de montaña. Es uno de esos lugares que invitan a detenerse y disfrutar el entorno.</p>
+                                    <p class="mb-0 texto-galeria">Fotografía de mi galería personal.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center g-0">
+                            <div class="col-md-4 text-center">
+                                <img src="multimedia/imagenes/Mistico.jpeg" class="imagen-galeria" alt="Fotografía de Místico durante una lucha">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body p-4 p-lg-5">
+                                    <h4 class="texto-cian">Místico en acción</h4>
+                                    <p>Un momento de la lucha libre con Místico en el cuadrilátero. La energía del público y el espectáculo hacen especial esta imagen.</p>
+                                    <p class="mb-0 texto-galeria">Fotografía de mi galería personal.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center g-0">
+                            <div class="col-md-4 text-center">
+                                <img src="multimedia/imagenes/otoño.jpeg" class="imagen-galeria" alt="Fotografía de un paisaje durante el otoño">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body p-4 p-lg-5">
+                                    <h4 class="texto-cian">Colores de otoño</h4>
+                                    <p>Una escena cotidiana que destaca por sus colores y detalles. A veces basta mirar con atención para encontrar algo que vale la pena guardar.</p>
+                                    <p class="mb-0 texto-galeria">Fotografía de mi galería personal.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center g-0">
+                            <div class="col-md-4 text-center">
+                                <img src="multimedia/imagenes/entradaCelestial.jpeg" class="imagen-galeria" alt="Entrada del evento Entrada Celestial">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body p-4 p-lg-5">
+                                    <h4 class="texto-cian">Entrada Celestial</h4>
+                                    <p>Una fotografía de un momento especial en el evento. La guardo como recuerdo de una experiencia que disfruté.</p>
+                                    <p class="mb-0 texto-galeria">Fotografía de mi galería personal.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between p-3">
+                    <button class="btn boton-morado" type="button" data-bs-target="#carruselIntereses" data-bs-slide="prev">Anterior</button>
+                    <button class="btn boton-morado" type="button" data-bs-target="#carruselIntereses" data-bs-slide="next">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <article class="col-md-6">
+                <div class="card tarjeta-portafolio tarjeta-recurso h-100">
+                    <div class="card-body p-4">
+                        <h3 class="h4 texto-cian subtitulo-fuente">Tierra Santa · MILO J</h3>
+                        <p>Una canción que disfruto y que puedes escuchar desde este reproductor:</p>
+                        <audio controls class="w-100">
+                            <source src="multimedia/audio/TieraaZanta.mp3" type="audio/mpeg">
+                            Tu navegador no puede reproducir este audio.
+                        </audio>
+                    </div>
+                </div>
+            </article>
+            <article class="col-md-6">
+                <div class="card tarjeta-portafolio tarjeta-recurso h-100">
+                    <div class="card-body p-4">
+                        <h3 class="h4 texto-cian subtitulo-fuente">Video</h3>
+                        <p>Dejo este video de YouTube como una recomendación. Después actualizo este espacio con más contenido audiovisual de mi interés.</p>
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/zu2Wcc9NhB8" title="Video de YouTube compartido temporalmente" allowfullscreen loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <div class="modal fade" id="modalWeb" tabindex="-1" aria-labelledby="tituloModalWeb" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content modal-portafolio">
+                <div class="modal-header">
+                    <h2 class="modal-title h5" id="tituloModalWeb">Desarrollo web personal</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Estos proyectos forman parte de mi práctica para crear y organizar sitios web personales. En la actividad de Milo J trabajé la estructura semántica con HTML5 y la presentación visual con CSS; en mi portafolio he aplicado además el sistema de cuadrícula y componentes de Bootstrap.</p>
+
+                    <h3 class="h6">Habilidades aplicadas</h3>
+                    <p><span class="texto-negrita">HTML5:</span> organización del contenido con secciones y elementos semánticos.</p>
+                    <p><span class="texto-negrita">CSS:</span> estilos, tipografías, distribución de elementos e imágenes.</p>
+                    <p><span class="texto-negrita">Bootstrap:</span> uso de contenedores, filas, columnas, tarjetas y modales en el portafolio.</p>
+
+                    <h3 class="h6">Continuación del proyecto</h3>
+                    <p>Quiero seguir desarrollando por mi cuenta la página de Milo J hasta convertirla en un blog personal, incorporando gradualmente lo que aprenda y nuevas secciones.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn boton-morado" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalDatos" tabindex="-1" aria-labelledby="tituloModalDatos" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content modal-portafolio">
+                <div class="modal-header">
+                    <h2 class="modal-title h5" id="tituloModalDatos">Galería de imágenes Android</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Aplicación móvil desarrollada con Kotlin en Android Studio para presentar fotografías en una interfaz sencilla y fácil de recorrer.</p>
+
+                    <h3 class="h6">Funcionalidad</h3>
+                    <p>La pantalla muestra una imagen con su descripción y permite avanzar o regresar con los botones “Siguiente” y “Anterior”.</p>
+
+                    <h3 class="h6">Habilidades aplicadas</h3>
+                    <p><span class="texto-negrita">Kotlin:</span> lógica para cambiar la fotografía y su descripción durante la navegación.</p>
+                    <p><span class="texto-negrita">Android Studio:</span> construcción y organización de los elementos de la interfaz.</p>
+                    <p><span class="texto-negrita">Diseño de interfaz:</span> presentación clara de imágenes, textos y controles para facilitar el uso.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn boton-morado" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalAcademico" tabindex="-1" aria-labelledby="tituloModalAcademico" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content modal-portafolio">
+                <div class="modal-header">
+                    <h2 class="modal-title h5" id="tituloModalAcademico">Health_ID</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Health_ID es un proyecto académico de diseño de experiencia de usuario (UX) e interfaz de usuario (UI) para una plataforma médica digital.</p>
+
+                    <h3 class="h6">Objetivo</h3>
+                    <p>Optimizar la consulta y administración de expedientes e identificaciones médicas, facilitando la interacción entre el personal de salud y los usuarios.</p>
+
+                    <h3 class="h6">Aspectos principales</h3>
+                    <ul>
+                        <li><span class="texto-negrita">Diseño centrado en el usuario:</span> flujos de navegación claros, intuitivos y accesibles para agilizar el acceso a información médica.</li>
+                        <li><span class="texto-negrita">Prototipado en Figma:</span> creación de wireframes y prototipos interactivos con una identidad visual amigable y profesional.</li>
+                        <li><span class="texto-negrita">Estructura modular:</span> propuesta preparada para gestionar pacientes, consultas y expedientes digitales.</li>
+                    </ul>
+
+                    <p><span class="texto-negrita">Herramientas:</span> Figma, investigación UX, wireframes y prototipado interactivo.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn boton-morado" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid text-center py-4">
+        <section class="redes-sociales mb-3" aria-label="Redes sociales">
+            <a class="icono-red" href="https://www.instagram.com/jacobo_jzd/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a class="icono-red" href="https://github.com/JacoboDuarte" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+            <a class="icono-red" href="https://open.spotify.com/user/josebaduarte29?si=55c56b9317e14185" target="_blank" rel="noopener noreferrer" aria-label="Spotify" title="Spotify"><i class="fa-brands fa-spotify" aria-hidden="true"></i></a>
+            <a class="icono-red" href="https://www.linkedin.com/in/jacobo-duarte-jim%C3%A9nez-210b97445/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+        </section>
+        <p>© 2026 Jacobo Joseba Duarte Jiménez</p> 
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script> 
+</body>
+</html>

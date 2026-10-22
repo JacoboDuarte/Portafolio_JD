@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="author" content="Jacobo Joseba Duarte Jiménez"> 
+    <meta name="description" content="Formulario de contacto del portafolio personal de Jacobo Duarte."> 
+    <meta name="keywords" content="contacto, Jacobo Duarte, portafolio, desarrollo de software"> 
+
+    <title>Jacobo Duarte Contacto</title> 
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/brands.min.css">
+    <link rel="stylesheet" href="css/estilos.css"> 
+    <link rel="icon" href="iconos/favicon.ico" type="image/x-icon"> 
+    
+</head>
+<body>
+    <!-- Encabezado y menú de navegación. -->
+    <header class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <nav class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="multimedia/imagenes/logo-32x32.png" alt="Logo JD" class="d-inline-block align-text-middle logotipo"> 
+                Jacobo Duarte
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuContacto" aria-controls="menuContacto" aria-expanded="false" aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span> 
+            </button>
+            <div class="collapse navbar-collapse" id="menuContacto">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="index.html#tituloPerfil">Perfil</a> 
+                    <a class="nav-link" href="index.html#tituloHabilidades">Habilidades</a> 
+                    <a class="nav-link" href="index.html#tituloProyectos">Proyectos</a> 
+                    <a class="nav-link" href="contacto.html#tituloContacto">Contacto</a> 
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container py-5 my-5">
+        <h1 id="tituloContacto" class="titulo-seccion titulo-navegacion text-center">¡Contáctame!</h1>
+        <p class="text-center texto-contacto mb-5">¿Tienes una pregunta, una propuesta o quieres conocer más sobre alguno de mis proyectos? Escríbeme.</p>
+        <div class="row justify-content-center">
+            <section class="col-lg-8 mb-4">
+                <div class="card tarjeta-portafolio tarjeta-contacto">
+                    <div class="card-body p-4">
+                        <h2 class="h4 texto-cian mb-4">Envíame un mensaje</h2>
+                        <form action="#" method="post">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="correo" class="form-label">Correo electrónico</label>
+                                <input type="email" class="form-control" id="correo" name="correo" placeholder="nombre@ejemplo.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="asunto" class="form-label">Asunto</label>
+                                <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Motivo del mensaje" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+                            </div>
+                            <button type="submit" class="btn boton-morado mt-2">Enviar mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="col-lg-8 mb-4">
+                <div class="card tarjeta-portafolio tarjeta-contacto">
+                    <div class="card-body p-4">
+                        <h2 class="h4 texto-cian mb-2">Ubicación</h2>
+                        <p>Universidad Tecnológica de León, Guanajuato, México</p>
+                        <iframe id="mapa" class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.2262963342114!2d-101.58422909010918!3d21.063622086501123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b963652f40f0d%3A0xa7d88da0ad8eff8a!2sUniversidad%20Tecnol%C3%B3gica%20de%20Le%C3%B3n!5e0!3m2!1ses!2smx!4v1792563503574!5m2!1ses!2smx" title="Ubicación de la Universidad Tecnológica de León" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="container-fluid text-center py-4">
+        <section class="redes-sociales mb-3" aria-label="Redes sociales">
+            <a class="icono-red" href="https://www.instagram.com/jacobo_jzd/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a class="icono-red" href="https://github.com/JacoboDuarte" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+            <a class="icono-red" href="https://open.spotify.com/user/josebaduarte29?si=55c56b9317e14185" target="_blank" rel="noopener noreferrer" aria-label="Spotify" title="Spotify"><i class="fa-brands fa-spotify" aria-hidden="true"></i></a>
+            <a class="icono-red" href="https://www.linkedin.com/in/jacobo-duarte-jim%C3%A9nez-210b97445/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+        </section>
+        <p>© 2026 Jacobo Joseba Duarte Jiménez</p> 
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
